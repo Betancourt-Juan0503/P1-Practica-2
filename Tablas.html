@@ -1,0 +1,104 @@
+<!DOCTYPE html> <!-- Le dice al navegador que es una página HTML5 moderna -->
+<html lang="en"> <!-- Inicio de la página web y en idioma ingles -->
+
+<head> <!-- Información interna para el navegador que no se ve en pantalla -->
+    <meta charset="UTF-8"> <!-- Se usa para mostrar acentos y la letra ñ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Adapta la pagina para que se vea bien en celulares -->
+    <title>Tablas en HTML</title> <!-- Titulo que aparece en la pestaña del navegador -->
+</head> <!-- Cierra la parte de la informacion interna de la pagina -->
+
+<body> <!-- Inicia la parte que contiene informacion visible  -->
+    <h1>Tipos de tablas</h1> <!-- Agrega un tamaño de letra para un titulo -->
+    <p>El objetivo fundamental de las tablas en HTML sera <!-- Inicia un parrafo -->
+        mostrar una serie de datos en forma ordenada, <!-- Continua el parrafo -->
+        organizado en filas y columnas <!-- Continua el parrafo -->
+    </p> <!-- Cierra el parrafo -->
+    <p>Para la creacion de una tabla intervienen diferentes elementos:</p> <!-- Se agrega un parrafo -->
+    <dl> <!-- Crea una lista de definiciones -->
+        <!-- Primer termino-->
+        <dt>Table</dt> <!-- Especifica el termino a definir -->
+        <!-- Definicion del primer termino-->
+        <dd> <!-- Inicia la definicion del termino -->
+            Es la marca de comienzo de la tabla. Este elemento requiere <!-- Texto de la definicion -->
+            la marca de cierre. <!-- Continua el texto de la definicion -->
+        </dd> <!-- Cierra la definicion del termino -->
+        <!-- Segundo termino-->
+        <dt>Tr</dt> <!-- Especifica el termino a definir -->
+        <!-- Definicion del segundo termino-->
+        <dd> <!-- Inicia la definicion del termino -->
+            Es la marca de comienzo de una fila. Esta marca debe estar <!-- Texto de la definicion -->
+            dentro del elemento table <!-- Continua el texto de la definicion -->
+        </dd> <!-- Cierra la definicion del termino -->
+        <!-- Tercer termino-->
+        <dt>Td</dt> <!-- Especifica el termino a definir -->
+        <!-- Definicion del tercer termino-->
+        <dd> <!-- Inicia la definicion del termino -->
+            Es la marca de comeinzo de una celda. Esta marca debe estar <!-- Texto de la definicion -->
+            dentro del elemento tr <!-- Continua el texto de la definicion -->
+        </dd> <!-- Cierra la definicion del termino -->
+    </dl> <!-- Cierra la lista de definiciones -->
+    <h2>Ejemplo</h2> <!-- Agrega un subtitulo -->
+    <table border="1"> <!-- Crea una tabla con borde -->
+        <tr> <!-- Crea una fila dentro de la tabla -->
+            <td>Ciudad de Mexico</td> <!-- Es la celda con informacion -->
+            <td>9.2 millones</td> <!-- Es la celda con informacion -->
+        </tr> <!-- Cierra la fila -->
+        <tr> <!-- Crea una fila dentro de la tabla -->
+            <td>Guadalajara</td> <!-- Es la celda con informacion -->
+            <td>4.1 millones</td> <!-- Es la celda con informacion -->
+        </tr> <!-- Cierra la fila -->
+        <tr> <!-- Crea una fila dentro de la tabla -->
+            <td>Monterrey</td> <!-- Es la celda con informacion -->
+            <td>3.9 millones</td> <!-- Es la celda con informacion -->
+        </tr> <!-- Cierra la fila -->
+    </table> <!-- Cierra la tabla -->
+    <h2>Tabla con encabezado</h2> <!-- Agrega un subtitulo -->
+    <p>La caracteristicas de esta tabla es que se le agrega a las celdas  <!-- Inicia un parrafo -->
+        el encabezado correspondiente, esto solo aplicaria a la primera <!-- Continua el parrafo -->
+        fila de la tabla con la etiqueta <em>th</em>, las demas filas <!-- Continua el parrafo -->
+        usarian la etiqueta <em>td</em> con normalidad. <!-- Continua el parrafo -->
+    </p> <!-- Cierra el parrafo -->
+    <table border="1"> <!-- Crea una tabla con borde -->
+        <tr> <!-- Crea una fila dentro de la tabla -->
+            <th>Ciudad</th> <!-- Es la celda de encabezado de la columna -->
+            <th>Cantidad de habitantes</th> <!-- Es la celda de encabezado de la columna -->
+        </tr> <!-- Cierra la fila -->
+        <tr> <!-- Crea una fila dentro de la tabla -->
+            <td>Ciudad de Mexico</td> <!-- Es la celda con informacion -->
+            <td>9.2 millones</td> <!-- Es la celda con informacion -->
+        </tr> <!-- Cierra la fila -->
+        <tr> <!-- Crea una fila dentro de la tabla -->
+            <td>Guadalajara</td> <!-- Es la celda con informacion -->
+            <td>4.1 millones</td> <!-- Es la celda con informacion -->
+        </tr> <!-- Cierra la fila -->
+        <tr> <!-- Crea una fila dentro de la tabla -->
+            <td>Monterrey</td> <!-- Es la celda con informacion -->
+            <td>3.9 millones</td> <!-- Es la celda con informacion -->
+        </tr> <!-- Cierra la fila -->
+    </table> <!-- Cierra la tabla -->
+    <h2>Tabla con titulo</h2> <!-- Agrega un subtitulo -->
+    <p>Para insertar un titulo a la tabla debemos incorporar el elemento caption  <!-- Inicia un parrafo -->
+        inmediatamente despues de abrir la etiqueta <em>table</em>. <!-- Continua el parrafo -->
+    </p> <!-- Cierra el parrafo -->
+    <table border="1"> <!-- Crea una tabla con borde -->
+        <caption>Poblacion de las ciudades mas concurridas de Mexico</caption> <!-- Agrega el titulo principal a la tabla -->
+        <tr> <!-- Crea una fila dentro de la tabla -->
+            <th>Ciudad</th> <!-- Es la celda de encabezado de la columna -->
+            <th>Cantidad de habitantes</th> <!-- Es la celda de encabezado de la columna -->
+        </tr> <!-- Cierra la fila -->
+        <tr> <!-- Crea una fila dentro de la tabla -->
+            <td>Ciudad de Mexico</td> <!-- Es la celda con informacion -->
+            <td>9.2 millones</td> <!-- Es la celda con informacion -->
+        </tr> <!-- Cierra la fila -->
+        <tr> <!-- Crea una fila dentro de la tabla -->
+            <td>Guadalajara</td> <!-- Es la celda con informacion -->
+            <td>4.1 millones</td> <!-- Es la celda con informacion -->
+        </tr> <!-- Cierra la fila -->
+        <tr> <!-- Crea una fila dentro de la tabla -->
+            <td>Monterrey</td> <!-- Es la celda con informacion -->
+            <td>3.9 millones</td> <!-- Es la celda con informacion -->
+        </tr> <!-- Cierra la fila -->
+    </table> <!-- Cierra la tabla -->
+</body> <!-- Cierra la parte visible de la pagina -->
+
+</html> <!-- Cierra la pagina web -->
