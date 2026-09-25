@@ -1,0 +1,84 @@
+<!DOCTYPE html> <!-- Le dice al navegador que es una página HTML5 moderna -->
+<html lang="es"> <!-- Inicio de la página web y en idioma español -->
+
+<head> <!-- Información interna para el navegador que no se ve en pantalla -->
+    <meta charset="UTF-8"> <!-- Se usa para mostrar acentos y la letra ñ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Adapta la pagina para que se vea bien en celulares -->
+    <title>Tipos de listas en html</title> <!-- Titulo que aparece en la pestaña del navegador -->
+</head> <!-- Cierra la parte de la informacion interna de la pagina -->
+
+<body> <!-- Inicia la parte que contiene informacion visible  -->
+    <h1>Tipos de listas</h1> <!-- Agrega un tamaño de letra para un titulo -->
+    <h2>Listas ordenadas</h2> <!-- Agrega un subtitulo -->
+    <p>Una lista ordenada es una serie de elementos los cuales <!-- Inicia un parrafo -->
+        tendran una numeracion de acuerdo al numeros de elementos. <!-- Continua el parrafo -->
+    </p> <!-- Cierra el parrafo -->
+    <ol> <!-- Crea una lista numerada  -->
+        <li>Luna Arias </li> <!-- Es el elemento en una lista -->
+        <li>Franco Andrea</li> <!-- Es el elemento en una lista -->
+        <li>Granados Evelyn</li> <!-- Es el elemento e una lista -->
+    </ol> <!-- Cierra la lista -->
+    <h2>Listas no ordenadas</h2> <!-- Agrega un subtitulo -->
+    <p>Las listas no ordenadas no utilizan ninguna numeracion delante  <!-- Inicia un parrafo -->
+        de cada item sino un pequeño elemento grafico <!-- Continua el parrafo -->
+    </p> <!-- Cierra el parrafo -->
+    <ul> <!-- Crea una lista con viñetas -->
+        <li>C</li> <!-- Es el elemento en una lista -->
+        <li>C++</li> <!-- Es el elemento en una lista -->
+        <li>Python</li> <!-- Es el elemento en una lista -->
+    </ul> <!-- Cierra la lista -->
+    <h2>Lista de definiciones</h2> <!-- Agrega un subtitulo -->
+    <p>Se utiliza para asociar un termino y la definicion del mismo</p> <!--Se agrega un parrafo -->
+    <dl> <!-- Crea una lista de definiciones -->
+        <!-- Primer termino-->
+        <dt>C++</dt> <!-- Especifica el termino a definir -->
+        <!-- Definicion del primer termino-->
+        <dd> <!-- Inicia la definicion del termino -->
+            Es un lenguaje de programacion, diseñado a mediados de los años <!-- Texto de la definicion -->
+            1980 como extension del lenguaje de programacion C. <!-- Continua el texto de la definicion -->
+        </dd> <!-- Cierra la definicion del termino -->
+        <!-- Segundo termino-->
+        <dt>Java</dt> <!-- Especifica el termino a definir -->
+        <!-- Definicion del segundo termino-->
+        <dd> <!-- Inicia la definicion del termino -->
+            Es un lenguaje de programacion orientado a objetos desarrollado <!-- Texto de la definicion -->
+            por Sun Microsystem a principios de los 90. <!-- Continua el texto de la definicion -->
+        </dd> <!-- Cierra la definicion del termino -->
+        <!-- Tercer termino-->
+        <dt>JavaScript</dt> <!-- Especifica el termino a definir -->
+        <!-- Definicion del tercer termino-->
+        <dd> <!-- Inicia la definicion del termino -->
+            Es un lenguaje interpretado, es decir que no requiere compilacion, <!-- Texto de la definicion -->
+            utilizado principalmente en paginas web, con una sintaxis similar <!-- Continua el texto de la definicion -->
+            al lenguaje de programacion C. <!-- Continua el texto de la definicion -->
+        </dd> <!-- Cierra la definicion del termino -->
+    </dl> <!-- Cierra la lista de definiciones -->
+    <h2>Listas anidadas</h2> <!-- Agrega un subtitulo -->
+    <p>En HTML nos permite insertar una lista dentro de otra lista, se pueden <!-- Inicia un parrafo -->
+        anidar diferentes tipos de lista de acuerdo al requerimiento <!-- Continua el parrafo -->
+    </p> <!-- Cierra el parrafo -->
+    <ol> <!-- Crea una lista numerada  -->
+        <li>Argentina <!-- Es el elemento en una lista -->
+            <ul> <!-- Crea una lista con viñetas -->
+                <li>Buenos aires</li> <!-- Es el elemento en una lista -->
+                <li>La plata</li> <!-- Es el elemento en una lista -->
+                <li>Mendoza</li> <!-- Es el elemento en una lista -->
+            </ul> <!-- Cierra la lista -->
+        </li> <!-- Cierra el elemento de la lista -->
+        <li>España <!-- Es el elemento en una lista -->
+            <ul> <!-- Crea una lista con viñetas -->
+                <li>Barcelona</li> <!-- Es el elemento en una lista -->
+                <li>Madrid</li> <!-- Es el elemento en una lista -->
+                <li>Sevilla</li> <!-- Es el elemento en una lista -->
+            </ul> <!-- Cierra la lista -->
+        </li> <!-- Cierra el elemento de la lista -->
+        <li>Mexico <!-- Es el elemento en una lista -->
+            <ul> <!-- Crea una lista con viñetas -->
+                <li>Chihuahua</li> <!-- Es el elemento en una lista -->
+                <li>Cd. Juarez</li> <!-- Es el elemento en una lista -->
+                <li>Hermosillo</li> <!-- Es el elemento en una lista -->
+            </ul> <!-- Cierra la lista -->
+        </li> <!-- Cierra el elemento de la lista -->
+    </ol> <!-- Cierra la lista -->
+</body> <!-- Cierra la parte visible de la pagina -->
+</html> <!-- Cierra la pagina web -->
